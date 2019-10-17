@@ -16,6 +16,6 @@ travis-ci = { repository = "tov/libffi-rs" }
 complex = []
 
 [dependencies]
-libffi-sys = { git = "https://github.com/reitermarkus/libffi-sys-rs", branch = "cp-r" }
+libffi-sys = { git = "https://github.com/tov/libffi-sys-rs" }
 abort_on_panic = "2.0.0"
 libc = "0.2.11"
